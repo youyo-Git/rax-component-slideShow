@@ -1,0 +1,56 @@
+.slideShow{
+    width: 360px;
+    height: 150px;
+    float: left;
+}
+.slideWrap{
+    display: block;
+    width: 0;
+    height: 150px;
+    position: absolute;
+    left: 0px;
+    transform: translateX(-360px);
+    transition: 1s linear;
+}
+.viewBox{
+    display: block;
+    width: 360px;
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+}
+
+/* smallRedDot */
+.dot {
+    display: block;
+    background: #bcbcbc;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+.dotWrap {
+    position: absolute;
+    height: 10px;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%);
+    display: block;
+    z-index: 999;
+}
+
+.showRed {
+    background-color: red;
+}
+
+.redDot{
+    display: block;
+    background: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+}
