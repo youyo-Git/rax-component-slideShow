@@ -9,7 +9,7 @@ export default function Home() {
   const urlArr: string[] = [];
   let urlItem = '';
   // 循环生成数组
-  for (let i = 1; i < 4; i++) {
+  for (let i = 1; i < 6; i++) {
     urlItem = `${baseUrl}${i}.jpg`;
     urlArr.push(urlItem);
   }
